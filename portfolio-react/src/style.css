@@ -1,0 +1,78 @@
+.main {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    height: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.buttonAdd {
+    background-color: rgb(253, 58, 58);
+    color: white;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonAdd:hover {
+        background-color: rgb(253, 91, 91);
+}
+
+
+.tarefas {
+    margin-top: 1rem;
+    gap: 2rem;
+    width: 25%;
+}
+
+.tarefas li {
+    width: 100%;
+    gap: 2rem;
+    height: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tarefas li span {
+    display: flex;
+    align-items: center;
+}
+
+.tarefas li:hover {
+    background-color: #51c5de;
+    transition: all 600ms;
+}
+
+.edit {
+    margin-right: 0.5rem;
+    color:rgb(0, 134, 223);
+    cursor: pointer;
+}
+
+.remove {
+    color: rgb(253, 67, 105);
+    cursor: pointer;
+}
+
