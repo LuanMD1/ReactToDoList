@@ -46,6 +46,8 @@ form {
 .tarefas li {
     width: 100%;
     gap: 2rem;
+    font-size: 1.5rem;
+    font-family: arial;
     height: 3rem;
     padding: 0.5rem;
     display: flex;
